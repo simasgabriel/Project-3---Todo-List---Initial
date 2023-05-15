@@ -31,10 +31,19 @@
                     
                 </div>
 
-                <button class="clear" @click="todos=[]">Limpar tudo</button>
+                
 
-                <input type="text" placeholder="Escreva uma nova tarefa..." v-model="newTodo.text"> 
-                <button class="add" @click="addTodo()">Adicionar</button>
+                <section class="porraCss">
+                    <input class="inputForm" type="text" placeholder="Escreva uma nova tarefa..." v-model="newTodo.text"> 
+                    <button class="add" @click="addTodo()">Adicionar</button>
+                   
+                   <button class="clear" @click="todos=[]">Limpar tudo</button>
+                
+
+
+                </section>
+                
+                    
 
                 <div class="instructions">
                     Instruções:
