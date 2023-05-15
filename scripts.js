@@ -39,7 +39,7 @@ const todosApp={
         alert('Por favor, preencha todos os campos');
     }
 
-}
+},
 
 
 }
