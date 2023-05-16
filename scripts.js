@@ -41,6 +41,9 @@ const todosApp={
     }
 
 },
+storeTodos(){
+    localStorage.setItem("todos",JSON.stringify(this.todos));
+}
 
 },
 created(){
@@ -48,7 +51,7 @@ created(){
 
 },
 updated(){
-    localStorage.setItem("todos",JSON.stringify(this.todos));
+    
 }
 }
 
